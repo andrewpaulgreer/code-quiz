@@ -1,0 +1,128 @@
+*::before ::after {
+  background-origin: border-box;
+}
+#high-scores{
+    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;   
+}
+
+#timer{
+    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;   
+}
+
+.go-back{
+    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+#question-text{
+font-family: 'Merriweather', serif;
+font-family: 'Quicksand', sans-serif;
+font-size: 40px;
+}
+
+.h1{
+    font-family: 'Merriweather', serif;
+font-family: 'Quicksand', sans-serif;
+font-size: 35px;
+}
+
+.p{
+    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+#start-button{
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+}
+#start-button:hover {
+    background-color: lightgray;
+    color:blueviolet;
+    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+  }
+
+#a {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Merriweather', serif;
+}
+
+#a {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Merriweather', serif;
+}
+#a:hover {
+    background-color: lightgray;
+    color:blueviolet;
+    border-radius: 12px;
+    font-family: 'Merriweather', serif;
+  }
+
+#b {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Merriweather', serif;
+}
+#b:hover {
+    background-color: lightgray;
+    color:blueviolet;
+    border-radius: 12px;
+    font-family: 'Merriweather', serif;
+  }
+#c {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Merriweather', serif;
+}
+#c:hover {
+    background-color: lightgray;
+    color:blueviolet;
+    border-radius: 12px;
+    font-family: 'Merriweather', serif;
+    
+  }
+
+#d {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Merriweather', serif;
+}
+
+#d:hover {
+    background-color: lightgray;
+    color:blueviolet;
+    border-radius: 12px;
+    font-family: 'Merriweather', serif;
+  }
+
+  #submit-button{
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+}
+#submit-button:hover {
+    background-color: lightgray;
+    color:blueviolet;
+    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+  }

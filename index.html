@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Quiz</title>
+  </head>
+  <body>
+<div class="container">
+    <header class="row" style="margin-top: 1.5em">
+        <section id=header-contianer class="header-container col-md-12 col-sm-11">
+        <a id=high-scores class="col-md-12" style="display:inline; text-align: left;" href="results.html">
+          View High-Scores
+        </a>
+        <div id="timer" class="col-md-11" style="display:inline; margin-left: 30%; text-align:right;">
+            Timer: 
+        </div>
+      </section>
+    </header>   
+      <div id="quiz-start-page" style="display:block; margin-top: 150px;">
+        <h1>
+          Coding Quiz Challange
+        </h1>
+        <p>
+          Welcome to my coding quiz, in this quiz you will be asked 5 questions
+          on a 75 second timer, each time you answer a question wrong, the timer
+          will deduct 10 seconds from your score. The final score will be the
+          total time remaining on the quiz. this will ask several questions about myself, to see how well you know me. 
+        </p>
+        <button id="start-button" class="hide" style="height: 75px; width: 100px; position:inline; margin-left:50%;">Start</button>
+      </div>
+ 
+  <div id="question-container" class="card text-center" style="display:none; background-color: white;">
+      <div id="question-text" class="card-header" style="background-color: white;">
+          
+      </div>
+      <div class="question-answers">
+        <button id="a" class="  col-md-10 col-sm-11" onclick= "answerFunc('a')"></button>
+        <button id="b" class=" col-md-10 col-sm-11" onclick= "answerFunc('b')"></button>
+        <button id="c" class=" col-md-10 col-sm-11" onclick= "answerFunc('c')"></button>
+        <button id="d" class=" col-md-10 col-sm-11" onclick= "answerFunc('d')"></button>
+      </div>
+      <div id="quick-result" class="card-footer"style="display:none; text-align:center;" >
+        
+      </div>
+    </div>
+    <div id="quiz-result-entry-page" style="display:none; margin-top: 150px;">
+        <h1>
+          Save your results by inputing your initials and score!
+        </h1>
+    <div id="result-display">
+        <p id="your-score">
+            
+        </p>
+    </div>
+    <form class="form-inline">
+        <div class="input-group">
+          <label id="initial-input" for="input-initials" style="margin-bottom: 50px;">Initials</label>
+          <input type="text" id="inputInitials" class="form-control mx-sm-3" aria-describedby="passwordHelpInline" placeholder="AB-50">
+          <button id="submit-button" class="hide" style="height: 75px; width: 100px; margin-top: 10px;">Submit your results</button>
+        </div>
+      </form>
+    </div>
+
+<div class="empty-space" style="margin-bottom:20%">
+
+</div>
+</div>
+
+
+  </body>
+  <script src="index.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+</html>
