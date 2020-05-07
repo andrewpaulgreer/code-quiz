@@ -20,7 +20,7 @@ var secondsLeft = 75;
 var intId = setInterval(counter, 1000);
 // counter function
 function counter(value) {
-  --secondsLeft === value;
+ secondsLeft  --
   timerEl.textContent = "Timer: " + secondsLeft;
   if (secondsLeft === 0) {
     clearInterval(intId);
@@ -133,10 +133,10 @@ function saveInitials() {
   console.log("inputText: " + inputText);
   if (inputText && inputText !== "") {
     // create object, push into array, then store in local storage
-    var inputObj = { score: inputText };
+    var inputObj = { intials: inputText, score: secondsLeft };
     userArr.push(inputObj);
     localStorage.setItem("userArr", JSON.stringify(userArr));
-    JSON.stringify(inputObj); // trying to get my JSON object to a string
+ // trying to get my JSON object to a string
   }
 }
 

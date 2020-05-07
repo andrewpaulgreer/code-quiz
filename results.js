@@ -7,10 +7,10 @@ var lastUser = JSON.parse(localStorage.getItem("userArr"));
 function renderScores() {
   // Clear todoList element and update todoCountSpan
   displayScore.textContent = lastUser.length;
-
+  console.log(lastUser)
   // Render a new li for each todo
   for (var i = 0; i < lastUser.length; i++) {
-    var display = lastUser[i];
+    var display = 'Intials: '+ lastUser[i].intials + " score: "+  lastUser[i].score;
 
     var li = document.createElement("li");
     li.textContent = display;
